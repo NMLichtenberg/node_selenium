@@ -5,8 +5,6 @@ Some features of the framework include parallel test execution for faster result
 
 Tests in this repo are written against http://the-internet.herokuapp.com which is a web application designed for test automation challenges.
 
-Tests are written using the page object model for increased resiliency and optimal maintainability.
-
 **Basic implementation details:**
 
 - Tests are run using grunt task runner
