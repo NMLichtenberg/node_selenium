@@ -1,0 +1,21 @@
+{
+  "extends": "google",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "rules": {
+    "max-len": [1,140],
+    "eqeqeq": ["error", "smart"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "ignore",
+      "asyncArrow": "ignore"
+    }],
+    "require-jsdoc": [0]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  }
+}
