@@ -7,18 +7,18 @@ Tests in this repo are written against http://the-internet.herokuapp.com which i
 
 Tests are written using the page object model for increased resiliency and optimal maintainability.
 
+**Basic implementation details:**
+
+- Tests are run using grunt task runner
+- Basepage:  Selenium actions are stored in base page. (makes writing tests more efficient and easier to maintain) 
+- Page objects:  Describes the actions avaiable on a wep page (another layer of abstraction helps with efficency and maintainability)
+- Tests:  Where test cases are defined, and assertions are made
+- Config:  Test configuration options are stored here.  
+
+
 **To run tests:**
 
 - install node 
 - install packages: npm install
 - install grunt cli globally: npm install -g grunt-cli
 - run tests: grunt
-
-**Basic implementation details:**
-
-- Tests are run using grunt task runner
-- Basepage:  Selenium actions are stored in base page. (makes writing tests more efficient and easier to maintain) 
-- Page objects:  Describes the actions avaiable on a wep page (another layer of abstraction that makes writing tests more 
-efficient and easier to maintain)
-- Tests:  Where test cases are defined, and assertions are made
-- Config:  Test configuration options are stored here.  
