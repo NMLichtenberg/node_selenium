@@ -6,9 +6,6 @@ Some features of the framework include parallel test execution for faster result
 Tests are written using page object model for increased resiliency and optimal maintainability.
 
 To run tests:
-
 install node 
-
 install packages: npm install
-
 run tests: grunt
