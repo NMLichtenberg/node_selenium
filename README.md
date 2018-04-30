@@ -13,4 +13,6 @@ install node
 
 install packages: npm install
 
+install grunt cli globally: npm install -g grunt-cli
+
 run tests: grunt
